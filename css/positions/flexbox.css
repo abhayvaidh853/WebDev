@@ -1,0 +1,17 @@
+/* .container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: rgb(55, 123, 192);
+} */
+
+.container{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  background: lightcoral;
+}
+.container:hover {
+  transition: all;
+  color: rgba(red, green, blue, alpha);
+}

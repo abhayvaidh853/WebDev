@@ -1,0 +1,21 @@
+.container {
+        width: 90%;
+        background-color:#cac8c8; 
+        padding: 30px; 
+        margin: 0 auto; 
+}
+
+.child-50 { 
+    width: 60%; 
+    background-color: rgb(244, 101, 76); 
+    color: white; 
+    padding: 10px; 
+}
+        
+
+.child-100 {
+    width: 90%; 
+    background-color: rgb(46, 149, 252); 
+    color: white; 
+    padding: 10px; 
+    margin-top: 10px; }

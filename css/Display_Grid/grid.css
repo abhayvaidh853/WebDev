@@ -1,0 +1,13 @@
+.grid-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr; /* 3 columns with different fractions */
+            gap: 15px;
+            background-color: #333;
+            padding: 15px;
+        }
+        .grid-item {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }

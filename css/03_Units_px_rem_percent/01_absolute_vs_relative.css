@@ -1,0 +1,7 @@
+html { font-size: 16px; } /* Default base size */
+        
+        .px-text { font-size: 24px; } /* Absolute */
+        .rem-text { font-size: 2rem; } /* Relative to root HTML element (2 * 16px = 32px) */
+        
+        .parent { font-size: 20px; }
+        .em-text { font-size: 2em; } /* Relative to parent element (2 * 20px = 40px) */

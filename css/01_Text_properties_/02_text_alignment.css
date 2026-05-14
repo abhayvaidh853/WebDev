@@ -1,0 +1,13 @@
+.center-text{
+    text-align: center;
+    background: lightblue;
+}
+.right-text {
+    text-align: right;
+}
+.justify-text { 
+            text-align: justify; 
+            line-height: 1.8; 
+            text-decoration: underline; 
+            text-decoration-color: rgb(79, 18, 18);
+        }

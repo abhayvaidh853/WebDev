@@ -1,0 +1,18 @@
+.flex-container {
+            display: flex;
+            flex-direction: row; /* Default */
+            flex-wrap: wrap; /* Wrap to next line if no space */
+            gap: 10px;
+            background-color: #eee;
+            padding: 10px;
+            width: 300px; /* Constrain width to force wrap */
+        }
+        .flex-item {
+            background-color: #ec4899;
+            color: white;
+            width: 130px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }

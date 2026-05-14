@@ -1,0 +1,46 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    background: rgb(25, 131, 167);
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgb(186, 242, 242);
+    min-width: 220px;
+    box-shadow: 0 5px 10px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 20px
+   
+}
+
+.dropdown-content a {
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.dropdown-content a :hover {
+    background: rgb(175, 173, 173);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
