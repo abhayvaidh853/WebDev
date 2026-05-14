@@ -1,0 +1,31 @@
+.parent {
+    height: 0;
+    align-items: center;
+}
+
+.head {
+    background: rgb(59, 38, 27);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+     background: rgb(131, 129, 126);
+    padding: 10px;
+   
+
+    
+}
+navbar a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+   
+    
+}
+nav { display: flex; justify-content: center; gap: 20px; padding: 10px; }
+        nav a { color: #fff; text-decoration: none; }
