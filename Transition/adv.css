@@ -1,0 +1,20 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background: #bd0000;
+    margin: 100px;
+    transition: 1s;
+    border-radius: 50%;
+
+}
+.box:hover{
+    transform: translatey(-100px); 
+    transform: rotatex(-100deg);
+    transform: rotate3d();
+    transform: scale(-.5);
+    transform: skewy(-20deg);
+    transform-origin: top right;
+    transform: rotate(360deg) scale(1.5); 
+
+
+}
