@@ -21,4 +21,16 @@
     display: flex;
     align-items: center;
     color: white;
+    
 }
+
+.box{
+    transition: 2s;
+
+}
+
+.box:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
