@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background: red;
+    animation: movebox 2s infinite alternate, colorChange 4s infinite alternate;
+
+}
+
+@keyframes movebox {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateY(200px);
+    }
+
+    80% {
+        transform: rotate(150deg);
+    }
+    100% {
+        transform: translateX(150px);
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background: rgb(0, 0, 0);
+    }
+    50% {
+        background: rgb(55, 136, 234);
+    }
+    100% {
+        background: rgb(211, 52, 44);
+    }
+}

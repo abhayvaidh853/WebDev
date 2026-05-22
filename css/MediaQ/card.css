@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+
+}
+
+.card{
+    flex: 1;
+    padding: 50px;
+    background: #eeee;
+    text-align: center;
+}
+@media(max-width:600px){
+    .cards{
+        flex-direction: column;
+    }
+}
