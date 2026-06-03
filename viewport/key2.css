@@ -1,0 +1,38 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: moveBoxes 3s infinite;
+
+}
+
+@keyframes moveBox {
+    0%{
+        transform: translateX(200px);
+    }
+    50%{
+        transform: translateY(200px);
+        background-color: red;
+    }
+    100%{
+        transform: translateX(200px);
+        background: rgb(157, 0, 255);
+        color: white;
+    }
+}
+
+@keyframes moveBoxes {
+    0% {
+        transform: scale(.5);
+
+    }
+    50%{
+        transform: scale(0);
+        background-color: brown;
+
+    }
+    100%{
+        transform: scale(1.5);
+        background: blue;
+    }
+}

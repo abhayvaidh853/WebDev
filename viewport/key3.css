@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 50%;
+    animation: rotateCircle 3s linear infinite;
+    border: 5px dotted black;
+}
+
+@keyframes rotateCircle {
+    from{
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+  
+    }
+}
