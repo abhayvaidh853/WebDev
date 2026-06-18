@@ -28,6 +28,29 @@
 // console.log(a ** b)
 
 
+// Arithmetic operators
+// let a = 5;
+// let b = 2;
+
+// console.log("a = ", a," & b = ", b)
+// console.log("a + b =", a + b);
+// console.log("a - b =", a - b);
+// console.log("a * b =", a * b);
+// console.log("a / b =", a / b);
+// console.log("a % b =", a % b);
+// console.log("a ** b =", a ** b);
+
+
+//Unary Operators
+// let a = 5;
+// let b = 2;
+
+// console.log("a = ", a, " & b = ", b);
+// a = a - 1;
+// console.log("a = ", a); //4
+
+
+
 // Assignment Operatos
 
 // =
@@ -61,6 +84,8 @@
 // console.log(x++)
 // console.log(x)
 
+
+
 // Comparision Operators
 
 // Equal (==)
@@ -92,6 +117,12 @@
 // less than
 
 // console.log(9 >= "9")
+
+
+let a = 5;
+let b = "5";
+
+console.log("a === b",a == b);
 
 
 // Logical Operators
