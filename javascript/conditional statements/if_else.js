@@ -166,20 +166,37 @@
 //Electricity Bill
 
 // const prompt = require ("prompt-sync")();
-let units = 250
-let bill
+// let units = 250
+// let bill
 
-if (units <= 100){
-    bill = units * 5
+// if (units <= 100){
+//     bill = units * 5
 
+// }
+
+// else if (units <= 200){
+//     bill = units * 7
+// }
+
+// else{
+//     bill = units * 10
+// }
+
+// console.log("Bill Amount:",bill)
+
+
+// let num=678
+num=Math.abs(num)
+if (num>=10 && num <= 99){
+    console.log("2 digit number")
 }
-
-else if (units <= 200){
-    bill = units * 7
+else if (num>= 100 && num <=999){
+    console.log("3 digit number");
+    
 }
-
-else{
-    bill = units * 10
+else if (num>=1000 && num<= 9999){
+    console.log("4 digit number");
+    
 }
-
-console.log("Bill Amount:",bill)
+else{console.log("not a 2,3 or 4 digit number");
+}
