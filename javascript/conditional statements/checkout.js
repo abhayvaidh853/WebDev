@@ -73,12 +73,6 @@ const PromptSync = require("prompt-sync");
 // checkout();
 
 
-
-
-
-
-
-
 const prompt=require ("prompt-sync")();
 console.log("=== PRODUCTS ===");
 console.log(("1. Laptop -- 40000"));
