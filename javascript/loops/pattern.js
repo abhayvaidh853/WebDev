@@ -1,14 +1,21 @@
-// * * * * *
+//1. * * * * *
 
 // for (let i = 1; i <= 5; i ++){
 //     process.stdout.write("* ")
 // }
 // console.log()
 
-// * * * * *
-// * * * * *
-// * * * * *
-// * * * * *
+// for (let i =1; i<= 5;i++){
+//     process.stdout.write("* ")
+// }
+// console.log()
+
+
+
+//2 * * * * *
+//  * * * * *
+//  * * * * *
+//  * * * * *
 
 // for (let i = 1; i <= 4; i++){
 
@@ -19,8 +26,14 @@
 //     console.log()
 // }
 
+// for (let i = 1; i<= 4; i++){
+//     for (let j = 1; j<=4; j++){
+//     process.stdout.write("* ")
+// }
+// console.log()
+// }
 
-// 1 2 3 4
+//3. 1 2 3 4
 
 // for (let i = 1; i <= 4; i++){
 
@@ -31,11 +44,22 @@
 //     console.log()
 // }
 
+// for(let i =1; i<=4; i++){
+//     for(let j =1; j<=4 ;j++){
+//         process.stdout.write(j+ " ")
+//     }
+//     console.log()
+// }
 
-// *
-// * *
-// * * *
-// * * * *
+
+
+
+
+
+//3.*
+//  * *
+//  * * *
+//  * * * *
 
 // for(let i = 1; i <= 4; i++){
 //     for(let j = 1; j <= i ; j++){
@@ -44,10 +68,19 @@
 //     console.log()
 // }
 
-// * * * * 
-// * * *
-// * * 
-// * 
+// for (let i = 1; i<= 4; i++){
+//     for(j = 1; j<=i; j++){
+//         process.stdout.write("💀 ")
+//     }
+//     console.log()
+// }
+
+
+
+//4.* * * * 
+//  * * *
+//  * * 
+//  * 
 
 // for(let i = 4; i <= 1; i--){
 //     for(let j = 1; j <= i ; j++){
@@ -78,7 +111,15 @@
 
 // }
 
-
+// for(let i = 1; i <= 4; i++){
+//     for(j = 1; j<= 4-i; j++){
+//         process.stdout.write("  ")
+//     }
+//     for(let k = 1; k<=i ; k++){
+//         process.stdout.write("💀")
+//     }
+//     console.log()
+// }
 
 
 // * * * * 
@@ -179,17 +220,26 @@
 
 //Hollow Triangle
 
-let n = 5
-for (let i = 1; i <= n; i++){
+// let n = 5
+// for (let i = 1; i <= n; i++){
 
-    for(let j = 1; j <= i; j++){
+//     for(let j = 1; j <= i; j++){
 
-        if (j == 1 || j == i || i == n){
-            process.stdout.write("* ")
+//         if (j == 1 || j == i || i == n){
+//             process.stdout.write("* ")
 
-        }else{
-            process.stdout.write("  ")
-        }
-    }
-    console.log()       
-}
+//         }else{
+//             process.stdout.write("  ")
+//         }
+//     }
+//     console.log()       
+// }
+
+// fill methd
+//fill(value,start,end)
+// note : end index include nhi hota h
+
+let numbers = [1,2,3,4,5,6,7]
+
+numbers.fill(2,2,5)
+console.log(numbers)

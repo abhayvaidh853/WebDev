@@ -1,12 +1,13 @@
-// Arrays
+// 1. Arrays
 //let marks = [76,88,99,66]
 
 // let numbers = [10,20,30,40,50,60,70,80]
 
-// //arrays the elements
+// 2.arrays the elements
 // console.log(numbers[5])
 
-// //update the value
+
+// 3.update the value
 // numbers[2] = 100
 
 // console.log(numbers)
@@ -27,7 +28,8 @@
 
 // console.log(arr)
 
-// Basic Array Methods
+
+// 4.Basic Array Methods
 
 //push - last me add
 
@@ -41,7 +43,8 @@
 // fruits.pop()
 // console.log(fruits)
 
-//shift() - starting se remove
+
+// 5.shift() - starting se remove
 
 // let fruits = ["Apple","Mango","Kiwi"]
 
@@ -52,7 +55,7 @@
 // console.log(fruits.length)
 
 
-// //unshift() - starting me add
+// 6.nshift() - starting me add
 
 // let fruits = ["Apple","Mango","Kiwi"]
 
@@ -61,14 +64,14 @@
 // console.log(fruits)
 
 
-//includes()
+// 7.includes()
 
 // let fruits = ["Apple","Mango","Kiwi","banana","cherry","grapes","papaya"]
 
 // console.log(fruits.includes("Aam"))
 
 
-//Lastindex01
+// 8.Lastindex01
 
 // let fruits = ['Apple',"banana","Mango","Kiwi","Cherry","Grapes","Apple","Papaya"]
 
@@ -76,7 +79,7 @@
 // console.log(fruits.lastIndexOf(""))
 
 
-//at()
+// 9.at()
 
 // let numbers = [10,20,30,40,50]
 
@@ -85,7 +88,7 @@
 // console.log(numbers.at(-3))
 
 
-//Fruits Joint
+// 10.Fruits Joint
 
 // let fruits = ['Apple',"banana","Mango","Kiwi","Cherry","Grapes","Apple","Papaya"]
 
