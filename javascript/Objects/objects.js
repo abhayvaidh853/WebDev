@@ -262,3 +262,48 @@
 
 // console.log(rest)
 // console.log(name)
+
+
+//Spread Operator 
+
+// let student = {
+//     name: "Abhay",
+//     age: 20,
+//     Roll:3838
+// }
+
+// let details = {
+//     ...student,
+//     city:"Delhi"
+// }
+
+// console.log(details)
+
+
+//Rest Operator
+
+// let student = {
+//     name: "Abhay",
+//     age: 20,
+//     Roll: 4873
+// }
+
+// let (name, ...rest)=student
+
+// console.log(rest)
+
+
+//Merge arrays with Spread
+
+// let frontend = ["HTML","CSS","JS","React","Bootstring","Tawind","Figma"]
+// let backend = ["Node","MongoDB","MySQL","APis","Postman","Express"]
+
+// let fullstack = [...frontend,...backend]
+
+// console.log(fullstack)
+
+
+// let marks = [85,90,95]
+
+// let copy = [...marks]
+// console.log(copy)

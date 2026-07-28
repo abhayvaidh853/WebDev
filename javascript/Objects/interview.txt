@@ -1,0 +1,34 @@
+1. What is forEach()?
+Array ke har element pr ek hi action ko perform krta hai. lekin kuch return nhi krta/new array nhi bnata.
+printing , logging , calculations.
+
+
+2. What is Map()?
+Array ke har elements ko transform/Modify krta h /or ek new array return krta h.
+Modifying data.
+
+
+3. What is Filter()?
+Array se sirf vahi element select krta h jo condition ko satisfy krte h or ek new array retun krta h.
+
+let numbers = [10,15,20,25,30,35,40,45]
+let even = numbers.Filter(num => num% 2 == 0)
+console.log(even)
+
+
+4. What is Find()?
+Array me se phela mtching element return krta h, jo condition ko satisfy krta hai.
+
+
+5. What is Reduce()?
+Array ke sabhi element ko combine krke ek hi single value ko return krta h.
+Reduce ka mtlb hai bahaut sari values ko milakar ek single value bnana.
+
+
+6. What is the Spread Operator?
+7. What is Rest Operator?
+8. What is forEach() return?
+9. What is Map() return?
+10. What is Filter() return?
+11. What is Finder() return?
+12. What is Reduce() return?
