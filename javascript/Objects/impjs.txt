@@ -1,0 +1,38 @@
+1. what is javascript?
+Javascript ek programing langugae h, jo website ko interactive or dynamic bnane ke liye use ki jati h.
+Js: programing or scripting dono language h,
+Python:programing or scripting dono language h,
+
+programing language: apps system software develope krne ke liye
+scripting language:
+
+
+2. why do we use javascript?
+website ko: interactive or dynamic bnane ke liye use kee Javascript
+
+
+3. Difference between JS and Java?
+
+
+4. Difference between let var and const ? ...... IMP ......
+var : old way to declare verialble
+function scoped
+redeclare or update dono posible h 
+
+let: modern way to declare 
+block scope 
+update ho skta h 
+same scope m redeclare nhi ho skta h
+
+const: modern way to declare 
+block scope
+update ho skta ho
+same scope m redeclare nhi ho skta h
+
+
+5. what is veriable hoisting?
+6. what is veriable scope?
+7. Difference between Global and Local Scope?
+8. Can we redeclare let ,var ,const? 
+9. Can we reassign lrt , var , const ?
+10. why we should avoid var?
