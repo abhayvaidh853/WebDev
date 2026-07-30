@@ -1,0 +1,10 @@
+1. what are premetive data types ?
+2. non-premetive data types kya hota h?
+3. difference between null and undefine?
+4. difference between == and === ?
+5. what is typeof ?
+6. what is NaN ?
+7. Is NaN == NaN true?
+8. difference between Number and BigInt?
+9. what is symbol ?
+10. way are objects called reference types?

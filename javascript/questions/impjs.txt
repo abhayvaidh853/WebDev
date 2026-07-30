@@ -31,6 +31,9 @@ same scope m redeclare nhi ho skta h
 
 
 5. what is veriable hoisting?
+
+
+
 6. what is veriable scope?
 7. Difference between Global and Local Scope?
 8. Can we redeclare let ,var ,const? 
